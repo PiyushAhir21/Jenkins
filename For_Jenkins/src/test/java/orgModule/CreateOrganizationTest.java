@@ -4,6 +4,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class CreateOrganizationTest {
+
 	@Test(groups = "SmokeTest")
 	public void createOrg() {
 		Reporter.log("Created Organization successfully", true);
